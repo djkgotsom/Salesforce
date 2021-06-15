@@ -1,0 +1,11 @@
+
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <classes>
+            <class name="SmokeTests.Savings.SalesForce_API_Tests" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="SmokeTests.Reports.ExtentReporterNG"/>
+    </listeners>
+</suite>
