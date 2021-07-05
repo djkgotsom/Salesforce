@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b390b3d2-ce57-48db-8dc7-63d1e141cba1" name="Default Changelist" comment="" />
+    <list default="true" id="b390b3d2-ce57-48db-8dc7-63d1e141cba1" name="Default Changelist" comment="Updated project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmokeTests/Cheque/Cheque_ServicesFlows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/Savings_ServiceFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/SalesForce_API_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmokeTests/certs/SOAPDEV.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SmokeTests/Savings/SalesForce_API_Tests.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/SalesForce_API_Tests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/Savings_ServiceFlows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="116">
+              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,15 +38,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Cheque/Cheque_ServicesFlows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/extent-config.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -53,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="1547">
               <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
             </state>
           </provider>
@@ -68,17 +95,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/SmokeTest/SalesForceSmokeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ReportFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/myFirstRestAssuredClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/TestApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/SalesForce_API_Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Savings/Savings_ServiceFlows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Cheque/Cheque_ServicesFlows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java" />
       </list>
     </option>
   </component>
@@ -106,18 +139,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
-    <option name="y" value="52" />
-    <option name="width" value="1938" />
-    <option name="height" value="930" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +190,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SmokeTests" type="462c0819:PsiDirectoryNode" />
-              <item name="certs" type="462c0819:PsiDirectoryNode" />
+              <item name="Cheque" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SalesForce_Services" type="b2602c69:ProjectViewProjectNode" />
@@ -198,14 +230,28 @@
               <item name="SalesForce_Services" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SalesForce_Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SalesForce_Services" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SalesForce_Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SalesForce_Services" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SalesForce_API_Tests">
+  <component name="RunManager" selected="TestNG.C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml">
     <configuration name="myFirstRestAssuredClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.myFirstRestAssuredClass" />
       <module name="SalesForce_Services" />
@@ -249,29 +295,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.tests" />
+    <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SalesForce_Services" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SmokeTests.Savings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesForce_API_Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cheque_ServicesFlows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SalesForce_Services" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SmokeTests.Savings.*" />
+          <option name="PATTERN" value="SmokeTests.Cheque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SmokeTests.Savings" />
-      <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.SalesForce_API_Tests" />
+      <option name="PACKAGE_NAME" value="SmokeTests.Cheque" />
+      <option name="MAIN_CLASS_NAME" value="SmokeTests.Cheque.Cheque_ServicesFlows" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -279,7 +322,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Savings_ServiceFlows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SalesForce_Services" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +331,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SmokeTests.Savings" />
-      <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.tests" />
+      <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.Savings_ServiceFlows" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApi.RegistrationSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalesForce_Services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SmokeTests.Savings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SmokeTests.Savings" />
+      <option name="MAIN_CLASS_NAME" value="SmokeTests.Savings.TestApi" />
+      <option name="METHOD_NAME" value="RegistrationSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -298,10 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SalesForce_API_Tests" />
+        <item itemvalue="TestNG.C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" />
+        <item itemvalue="TestNG.Cheque_ServicesFlows" />
+        <item itemvalue="TestNG.Savings_ServiceFlows" />
+        <item itemvalue="TestNG.TestApi.RegistrationSuccessful" />
         <item itemvalue="Application.myFirstRestAssuredClass" />
-        <item itemvalue="TestNG.tests" />
-        <item itemvalue="Application.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -316,42 +378,50 @@
       <option name="presentableId" value="Default" />
       <updated>1621941727463</updated>
     </task>
+    <task id="LOCAL-00001" summary="New project">
+      <created>1623763803101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623763803101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2021.05.26 at 11h 38m 54s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="Cheque_ServicesFlows - 2021.07.04 at 20h 30m 34s.xml">
+      <configuration name="Cheque_ServicesFlows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 11h 39m 58s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="Savings_ServiceFlows - 2021.07.04 at 20h 58m 15s.xml">
+      <configuration name="Savings_ServiceFlows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 18m 21s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 08h 59m 49s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 19m 33s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="Cheque_ServicesFlows - 2021.07.05 at 09h 01m 23s.xml">
+      <configuration name="Cheque_ServicesFlows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 23m 08s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 09h 02m 07s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 29m 41s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 09h 40m 28s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 49m 05s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 09h 47m 12s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.26 at 12h 50m 01s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 10h 22m 34s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="tests - 2021.05.27 at 08h 38m 13s.xml">
-      <configuration name="tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 11h 03m 54s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SalesForce_API_Tests - 2021.06.15 at 12h 07m 43s.xml">
-      <configuration name="SalesForce_API_Tests" configurationId="TestNG" />
+    <history-entry file="C__Users_abkmaix_Documents_Salesforce_Github_Salesforce_SalesForce_Services_src_main_java_SmokeTests_TestNG_testng_xml - 2021.07.05 at 11h 05m 36s.xml">
+      <configuration name="C:/Users/abkmaix/Documents/Salesforce_Github/Salesforce/SalesForce_Services/src/main/java/SmokeTests/TestNG/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -359,15 +429,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23967612" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.58071506" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.56988084" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.348135" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.31527627" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -378,72 +448,82 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32874495" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24939272" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New project" />
+    <MESSAGE value="Updated project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated project" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTest/SalesForceSmokeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ReportFolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/myFirstRestAssuredClass.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="1547">
           <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ReportFolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/TestApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/myFirstRestAssuredClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="26" column="14" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="357">
+          <caret line="21" column="141" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/TestNG/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/SalesForce_API_Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/extent-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Reports/extent-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Savings/Savings_ServiceFlows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmokeTests/Cheque/Cheque_ServicesFlows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

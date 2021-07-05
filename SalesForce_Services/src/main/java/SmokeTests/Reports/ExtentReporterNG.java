@@ -19,7 +19,7 @@ public class ExtentReporterNG implements IReporter {
     private String baseDir = System.getProperty("user.dir");
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
         extent = new ExtentReports(outputDirectory + File.separator + "ExtentReportsTestNG.html", true);
-        extent.loadConfig(new File(baseDir+"\\src\\test\\java\\Reports\\extent-config.xml"));
+        extent.loadConfig(new File(baseDir+"\\src\\main\\java\\SmokeTests\\Reports\\extent-config.xml"));
         for (ISuite suite : suites) {
 
             Map<String, ISuiteResult> result = suite.getResults();

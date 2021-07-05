@@ -1,10 +1,18 @@
-
-<suite name="softwaretestingmaterial">
-    <test name="testngTest">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EB_Sevices">
+    <test name="ChequesFlow">
         <classes>
-            <class name="SmokeTests.Savings.SalesForce_API_Tests" />
+            <class name="SmokeTests.Cheque.Cheque_ServicesFlows" />
         </classes>
     </test>
+
+    <test name="SavingsFlow">
+        <classes>
+            <class name="SmokeTests.Savings.Savings_ServiceFlows" />
+        </classes>
+    </test>
+
+
     <listeners>
         <listener class-name="SmokeTests.Reports.ExtentReporterNG"/>
     </listeners>
