@@ -1,17 +1,89 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="EB_Sevices">
-    <test name="ChequesFlow">
+
+    <!-- 1 -->
+    <test name="AccountHoldController">
         <classes>
-            <class name="SmokeTests.Cheque.Cheque_ServicesFlows" />
+            <class name="SmokeTests.AccountHoldController.Account_Holds_Controller" />
         </classes>
     </test>
 
-    <test name="SavingsFlow">
+    <!-- 2 -->
+    <test name="AccountRequestEntity">
         <classes>
-            <class name="SmokeTests.Savings.Savings_ServiceFlows" />
+            <class name="SmokeTests.AccountRequestEntity.AccountRequest_Entity" />
         </classes>
     </test>
 
+    <!-- 3 -->
+    <test name="AccountResponseEntity">
+        <classes>
+            <class name="SmokeTests.AccountResponseEntity.AccountResponse_Entity" />
+        </classes>
+    </test>
+
+    <!-- 4 -->
+    <test name="ApplicantEntity">
+        <classes>
+            <class name="SmokeTests.ApplicantEntity.ApplicantEntity_Applicant" />
+        </classes>
+    </test>
+
+    <!-- 5 -->
+    <test name="ApplicationEntity">
+        <classes>
+            <class name="SmokeTests.ApplicationEntity.ApplicationEntity_Application" />
+        </classes>
+    </test>
+
+    <!-- 6 -->
+    <test name="ChequeAccountController">
+        <classes>
+            <class name="SmokeTests.ChequeAccountController.Cheque_ServicesFlows" />
+        </classes>
+    </test>
+
+    <!-- 7 -->
+    <test name="ConversionController">
+        <classes>
+            <class name="SmokeTests.ConversionController.Conversion_Controller" />
+        </classes>
+    </test>
+
+    <!-- 8 -->
+    <test name="CreditAccountController">
+        <classes>
+            <class name="SmokeTests.CreditAccountController.CreditAccount" />
+        </classes>
+    </test>
+
+    <!-- 9 -->
+    <test name="MetaDataController">
+        <classes>
+            <class name="SmokeTests.MetaDataController.MetaData_Controller" />
+        </classes>
+    </test>
+
+    <!-- 10 -->
+    <test name="ProductEntity">
+        <classes>
+            <class name="SmokeTests.ProductEntity.ProductEntity_Product" />
+        </classes>
+    </test>
+
+    <!-- 11 -->
+    <test name="SavingAccountController">
+        <classes>
+            <class name="SmokeTests.SavingsAccountController.Savings_ServiceFlows" />
+        </classes>
+    </test>
+
+    <!-- 12 -->
+    <test name="SourceEntity">
+        <classes>
+            <class name="SmokeTests.SourceEntity.SourceEntity_Source" />
+        </classes>
+    </test>
 
     <listeners>
         <listener class-name="SmokeTests.Reports.ExtentReporterNG"/>

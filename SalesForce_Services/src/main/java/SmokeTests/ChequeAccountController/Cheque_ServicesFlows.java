@@ -1,4 +1,4 @@
-package SmokeTests.Cheque;
+package SmokeTests.ChequeAccountController;
 
 import io.restassured.RestAssured;
 import org.json.JSONObject;
@@ -9,11 +9,10 @@ import static io.restassured.RestAssured.given;
 
 public class Cheque_ServicesFlows {
 
-    @BeforeTest(groups = { "Cheque" })
+    @BeforeTest(groups = { "ChequeAccountController Account Controller" })
     public void setUp()  {
         try {
 
-            //RestAssured.baseURI = "https://account-service.ebi-uat.rbb-banking.sdc-nonprod.caas.absa.co.za";
             RestAssured.baseURI= "https://account-service.ebi-uat.rbb-banking.270-nonprod.caas.absa.co.za";
 
             } catch (Exception ex) {
@@ -22,8 +21,8 @@ public class Cheque_ServicesFlows {
         }
     }
 
-    @Test(description = "Get Account Holds",groups = {"Cheque"})
-    public void GetAccountHolds_Cheque() {
+    @Test(description = "Get Account Holds",groups = {"ChequeAccountController Account Controller"})
+    public void GetAccountHolds() {
 
         given()
                 .header("Content-Type", "application/json")
@@ -42,7 +41,7 @@ public class Cheque_ServicesFlows {
                 .statusCode(200);
     }
 
-    @Test(description = "Account Holds Cheques",groups = {"Cheque"})
+    @Test(description = "Account Holds Cheques",groups = {"ChequeAccountController Account Controller"})
     public void AccountHoldsCheques() {
 
         given()
@@ -61,7 +60,7 @@ public class Cheque_ServicesFlows {
                 .statusCode(200);
     }
 
-    @Test(description = "Account Holds CIF",groups = {"Cheque"})
+    @Test(description = "Account Holds CIF",groups = {"ChequeAccountController Account Controller"})
     public void AccountHolds_CIF_Cheque()  {
 
         given()
@@ -80,7 +79,7 @@ public class Cheque_ServicesFlows {
                 .statusCode(200);
     }
 
-    @Test(description = "Validate Account Holds",groups = {"Cheque"})
+    @Test(description = "Validate Account Holds",groups = {"ChequeAccountController Account Controller"})
     public void AccountHolds_Validate_Cheque()  {
 
         given()
@@ -100,7 +99,7 @@ public class Cheque_ServicesFlows {
 
     }
 
-    @Test(description = "Get Account Holds Producer",groups = {"Cheque"})
+    @Test(description = "Get Account Holds Producer",groups = {"ChequeAccountController Account Controller"})
     public void GetAccountHolds_Producer_Cheque()  {
 
                 given()
@@ -122,7 +121,7 @@ public class Cheque_ServicesFlows {
     }
 
 
-    @Test(description = "Add Product",groups = {"Cheque"})
+    @Test(description = "Add Product",groups = {"ChequeAccountController Account Controller"})
     public void AddProduct_Cheque() {
 
         JSONObject requestParams = new JSONObject();
@@ -146,7 +145,7 @@ public class Cheque_ServicesFlows {
 
     }
 
-    @Test(description = "Create Cheque Account",groups = {"Cheque"})
+    @Test(description = "Create ChequeAccountController Account",groups = {"ChequeAccountController Account Controller"})
     public void CreateChequeAccount() {
 
         given()
@@ -165,5 +164,25 @@ public class Cheque_ServicesFlows {
 
         //Need to fix inputs
 
+    }
+
+        @Test(description = "Add ChequeAccountController Product Controller, Add Product",groups = {"ChequeAccountController Account Controller"})
+    public void AddChequeProductController_AddProduct()  {
+
+        given()
+                .header("Content-Type", "application/json")
+                .and()
+                .pathParam("id","7001220753082")
+                .body("{ \"accountNumber\": \"string\", \"accountType\": \"string\", \"additionalDetail\": {}, \"featureJson\": {}, \"packageId\": 0, \"referringProduct\": 0, \"state\": \"string\", \"subtype\": \"string\", \"type\": \"string\"}")
+                .when()
+                .put
+                        ("/api/accounts/cheques/{id}/products")
+
+                .then()
+                .log()
+                .all()
+                .assertThat()
+                .statusCode(200);
+            //Need positive id to return statusCode 200
     }
 }
